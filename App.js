@@ -5,6 +5,7 @@ import { useFonts } from 'expo-font';
 
 import Home from './screens/Home';
 import Details from './screens/Detials';
+import { Button } from 'react-native';
 
 const theme = {
   ...DefaultTheme,
@@ -16,6 +17,7 @@ const theme = {
 
 const Stack = createStackNavigator();
 
+// TODO: 37:00: https://www.youtube.com/watch?v=_ivIUCSOZ78&t=1s
 export default function App() {
   const [loaded] = useFonts({
     InterBold: require('./assets/fonts/Inter-Bold.ttf'),
